@@ -1,5 +1,5 @@
 # hacktobertest
-===
+
 
 Repositorio de ejemplo para la charla de introducción de #hacktoberfestEs
 
@@ -13,4 +13,4 @@ Para poder ayudarte en el repositorio, encontraras cada una refernciadas con dis
 
 Cada una de ellas te permitirá mandar un Pull Request para que puedas ver como se puede contribuir a un repositorio.
 
-**NOTA**: No olvides leer el fichero contribuiting.md para ver las normas a la hora de contribuir a tu proyecto.
+**NOTA**: No olvides leer el fichero contributing.md para ver las normas a la hora de contribuir a tu proyecto.
