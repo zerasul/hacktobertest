@@ -1,8 +1,8 @@
 class Calc:
-"""
-clase Calc; permite sumar, restar, multiplicar y dividir
->>> calc = Calc()
-"""
+    """
+    clase Calc; permite sumar, restar, multiplicar, dividir y distinguir entre numero pare e impar
+    >>> calc = Calc()
+    """
     def suma(self,a,b):
         """Esta funcion recibe dos numeros y devuelve la suma
         >>> calc.suma(2,2)
@@ -25,3 +25,12 @@ clase Calc; permite sumar, restar, multiplicar y dividir
         1
         """
         pass
+    def es_par(self,a):
+        """Esta funcion recibe un numero y devuelve True en caso de que sea par y False en caso de que sea impar
+        >>> calc.es_par(2)
+        True
+        """
+        if a%2==0:
+            return True
+        else:
+            return False
