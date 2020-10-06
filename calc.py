@@ -28,7 +28,9 @@ class Calc:
         try:
         	return a/b
         except ZeroDivisionError:
-        	print('ERROR: Division entre cero')        
+        	print('ERROR: Division entre cero')
+
+
     def es_par(self,a):
         """Esta funcion recibe un numero y devuelve True en caso de que sea par y False en caso de que sea impar
         >>> calc.es_par(2)
@@ -38,6 +40,7 @@ class Calc:
             return True
         else:
             return False
+
 
 # For testing purposes only
 #obj = Calc()			# Assignas una variable para la clase
