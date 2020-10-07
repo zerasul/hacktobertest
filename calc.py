@@ -38,12 +38,13 @@ class Calc:
         """Esta funcion recibe dos numeros y devuelve el cociente
         >>> calc.div(2,2)
         1
-        """     
+
+        """
+        # Para manejar la division entre cero, se una el try/except prevenir un crash
         try:
-            resultado = float(a / b)
-            return resultado
-        except TypeError:
-            return False
+        	return a/b
+        except ZeroDivisionError:
+        	print('ERROR: Division entre cero')
 
     def es_par(self,a):
         """Esta funcion recibe un numero y devuelve True en caso de que sea par y False en caso de que sea impar
@@ -54,7 +55,3 @@ class Calc:
             return True
         else:
             return False
-
-
-
-
