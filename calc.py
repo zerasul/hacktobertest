@@ -54,9 +54,7 @@ class Calc:
             return True
         else:
             return False
-calculos = Calc()
-resultado =calculos.div(2,5)
-print(resultado)
+
 
 
 
