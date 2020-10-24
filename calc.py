@@ -25,3 +25,5 @@ clase Calc; permite sumar, restar, multiplicar y dividir
         1
         """
         pass
+    def power(self,a,b):
+        pass
