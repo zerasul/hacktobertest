@@ -1,8 +1,8 @@
 class Calc:
-"""
-clase Calc; permite sumar, restar, multiplicar y dividir
->>> calc = Calc()
-"""
+    """
+    clase Calc; permite sumar, restar, multiplicar y dividir
+    >>> calc = Calc()
+    """
     def suma(self,a,b):
         """Esta funcion recibe dos numeros y devuelve la suma
         >>> calc.suma(2,2)
